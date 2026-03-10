@@ -26,15 +26,6 @@ subir e descer canal.
        printf("O consumo é de: %d", consumo);
      }  
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
       int aumentarVolume(){
           if(volume < 10){
             volume++;
@@ -49,4 +40,10 @@ subir e descer canal.
         return volume;
       }
   
+      int subircanal(){
+        canal++;
+      }   
   
+      int descercanal(){
+        canal--;
+      }
